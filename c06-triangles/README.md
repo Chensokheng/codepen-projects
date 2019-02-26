@@ -1,3 +1,5 @@
+![alt text](https://github.com/ann-dev/codepen-projects/blob/master/c06-triangles/thumbnail.png "Triangle Challenge")
+
 ### Description
 HTML element with CSS-styled triangle pattern. Live at [CodePen.](https://codepen.io/merkund/pen/aMbyRp)
 
@@ -6,6 +8,3 @@ I wanted to make a simple pattern, by creating triangle shapes with CSS. It was 
 
 ### Time span
 **45 mins** - went slower than expected, it was hard to choose matching colours with colourpicking
-
-### Thumbnail
-![alt text](https://github.com/ann-dev/codepen-projects/blob/master/c06-triangles/thumbnail.png "Triangle Challenge")
