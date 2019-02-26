@@ -1,5 +1,3 @@
-
-
 <!--
 Copyright (c) 2019 by Ann H. (https://codepen.io/merkund/pen/exGYJb)
 
