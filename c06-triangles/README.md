@@ -1,5 +1,5 @@
 ### Description
-HTML element with CSS-styled triangle pattern. Live at https://codepen.io/merkund/pen/aMbyRp.
+HTML element with CSS-styled triangle pattern. Live at [CodePen.](https://codepen.io/merkund/pen/aMbyRp)
 
 ### Process
 I wanted to make a simple pattern, by creating triangle shapes with CSS. It was my first try with making a shape from scratch, so I've used CSS snippets from [CSS Tricks](https://css-tricks.com/the-shapes-of-css/). It turned out to look like a mug coaster from Paperchase (actually, I would like to buy ones with a pattern like mine!).
