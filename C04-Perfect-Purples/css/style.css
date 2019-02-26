@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
+* {
+  box-sizing: border-box;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+:root {
+  --dark-purple: #4b384c;
+  --light-purple: #e2a9e5;
+  --lighter-purple: #f6e5f7;
+  --purple: #632c65;
+}
+
+body {
+  background: var(--lighter-purple);
+  color: var(--lighter-purple);
+  display: grid;
+  font: 400 1rem Lato, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  margin: 0;
+  padding: 1rem;
+  place-items: center;
+}
+
+::placeholder,
+a,
+.container,
+.container input,
+i,
+.logo path {
+  -o-transition: all .5s ease-in;
+  -webkit-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+}
+
+.container__logo {
+  margin: 1.2rem;
+}
+
+.container:hover .logo path {
+  fill: var(--purple);
+}
+
+.container {
+  align-items: center;
+  background: var(--purple);
+  box-shadow: 1.5rem 1.5rem 0 0.5rem var(--light-purple);
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  padding: 3rem;
+  width: 26rem;
+}
+.container:hover {
+  background: var(--light-purple);
+  box-shadow: 1.5rem 1.5rem 0 0.5rem var(--purple);
+  color: var(--purple);
+  transform: translate(-1rem, -1rem);
+}
+
+form input,
+label {
+  display: block;
+  margin: 1.5rem auto;
+}
+
+input[type='email'],
+input[type='password'],
+input[type='text'] {
+  background: var(--purple);
+  border: none;
+  border-bottom: 0.08rem solid var(--light-purple);
+  color: var(--lighter-purple);
+  height: auto;
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+  padding: 1rem;
+  width: 100%;
+}
+
+input::placeholder {
+  color: var(--lighter-purple);
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.container:hover input::placeholder {
+  color: var(--purple);
+  font-weight: 700;
+}
+
+.container:hover input[type='email'],
+.container:hover input[type='password'],
+.container:hover input[type='text'] {
+  background: var(--light-purple);
+  border-bottom: 0.1rem solid var(--purple);
+  color: var(--purple);
+}
+
+.form__terms p {
+  font-size: .8rem;
+  text-align: center;
+}
+
+a {
+  color: var(--lighter-purple);
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.container:hover a {
+  color: var(--purple);
+  font-weight: 700;
+}
+
+input[type='submit'] {
+  background: var(--light-purple);
+  border: none;
+  color: var(--dark-purple);
+  cursor: pointer;
+  font: 1rem Lato, sans-serif;
+  padding: 1em 2em;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.container:hover input[type='submit'] {
+  background: var(--purple);
+  color: var(--lighter-purple);
+  font-weight: 700;
+}
