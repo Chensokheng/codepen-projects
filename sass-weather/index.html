@@ -1,73 +1,66 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <title>Sass-Weather </title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  
-  
-      <link rel="stylesheet" href="css/style.css">
-
-  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
   <div class="wrapper">
-  <p class="wrapper__title">Sass.Weather</p>
-  <div class="widget">
-    <div class="widget__section thin-bar">
-      <div class="nav">
-        <div class="nav__button nav__button-red">
-          <svg height="30" width="30">
-  <circle cx="18" cy="18" r="7.5" fill="#ff605c" />
-</svg>
+    <p class="wrapper__title">Sass.Weather</p>
+    <div class="widget">
+      <div class="widget__section thin-bar">
+        <div class="nav">
+          <div class="nav__button nav__button-red">
+            <svg height="30" width="30">
+              <circle cx="18" cy="18" r="7.5" fill="#ff605c" />
+            </svg>
+          </div>
+          <div class="nav__button nav__button-yellow">
+            <svg height="30" width="30">
+              <circle cx="18" cy="18" r="7.5" fill="#ffbf45" />
+            </svg>
+          </div>
+          <div class="nav__button nav__button-green">
+            <svg height="30" width="30">
+              <circle cx="18" cy="18" r="7.5" fill="#00c94c" />
+            </svg>
+            <p class="nav__title">Weather</p>
+          </div>
         </div>
-        <div class="nav__button nav__button-yellow">
-          <svg height="30" width="30">
-  <circle cx="18" cy="18" r="7.5" fill="#ffbf45" />
-</svg>
-        </div>
-        <div class="nav__button nav__button-green">
-          <svg height="30" width="30">
-  <circle cx="18" cy="18" r="7.5" fill="#00c94c" />
-</svg>
-          <p class="nav__title">Weather</p>
-        </div>
+        <p class="section__weather hour1">12:15</p>
+        <br />
+        <p class="section__weather city1">Manchester</p>
+        <p class="temp temp1">07° </p>
+        <img src="assets/rain.svg" alt="rain icon" class="wthr1" />
       </div>
-      <p class="section__weather hour1">12:15</p>
-      <br/>
-      <p class="section__weather city1">Manchester</p>
-      <p class="temp temp1">07° </p>
-      <img src="https://www.dropbox.com/s/p3an409zxe6f7j8/rain.svg?raw=1" alt="rain" class="wthr1"/>
-    </div>
-    <div class="widget__section">
-      <p class="section__weather hour2">13:15</p>
-      <br/>
-      <p class="section__weather city2">Stockholm</p>
-      <p class="temp temp2">01° </p>
-      <img src="https://www.dropbox.com/s/xxa77jagd78m9li/snows.svg?raw=1" alt="snow" class="wthr2"/>
-    </div>
-    <div class="widget__section">
-      <p class="section__weather hour3">21:15</p>
-      <br/>
-      <p class="section__weather city3">Osaka</p>
-      <p class="temp temp3">12° </p>
-      <img src="https://www.dropbox.com/s/ckcsvxjafdixsr3/wind.svg?raw=1" alt="wind" class="wthr3"/>
-    </div>
-    <div class="widget__section" id="no-bar">
-      <p class="section__weather hour4">07:15</p>
-      <br/>
-      <p class="section__weather city4">Florida</p>
-      <p class="temp temp4">22°</p>
-      <img src="https://www.dropbox.com/s/cnypl11sq85f44v/sunny.svg?raw=1" alt="sun" class="wthr4"/>
+      <div class="widget__section">
+        <p class="section__weather hour2">13:15</p>
+        <br />
+        <p class="section__weather city2">Stockholm</p>
+        <p class="temp temp2">01° </p>
+        <img src="assets/snows.svg" alt="snow icon" class="wthr2" />
+      </div>
+      <div class="widget__section">
+        <p class="section__weather hour3">21:15</p>
+        <br />
+        <p class="section__weather city3">Osaka</p>
+        <p class="temp temp3">12° </p>
+        <img src="assets/wind.svg" alt="wind icon" class="wthr3" />
+      </div>
+      <div class="widget__section" id="no-bar">
+        <p class="section__weather hour4">07:15</p>
+        <br />
+        <p class="section__weather city4">Florida</p>
+        <p class="temp temp4">22°</p>
+        <img src="assets/sunny.svg" alt="sun icon" class="wthr4" />
+      </div>
     </div>
   </div>
-</div>
-  
-  
-
 </body>
 
 </html>
