@@ -1,0 +1,256 @@
+//Colours
+$cherry: #c51162
+$dark-grey: #1e1e1c
+$grey: #857a66
+$yellow: #ffdc42
+$white: #fff
+
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700')
+$title-text: 'Karla', sans-serif 
+
+//Positioning
+html,
+body 
+  align-items: center
+  display: flex
+  height: 100vh
+  justify-content: center
+  margin: auto
+  
+.phone,
+.phone__screen,
+.screen,
+.screen__ticket  
+  display: flex
+  margin: auto
+  position: relative
+  
+.screen__hour, 
+.screen__wifi, 
+.screen__battery,
+.nav__back,
+.nav__home,
+.timer__desc
+  margin: 0
+  position: absolute  
+
+//MAIN
+html 
+  min-height: 100vh
+
+body 
+  background: $yellow
+  color: $dark-grey
+  font-family: $title-text
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+//I.WRAPPER 
+.wrapper__header 
+  font-size: 36px
+  padding-top: 30px
+  
+.wrapper
+  width: 120vmin
+  
+.wrapper > p
+  text-align: center
+
+//II.PHONE
+.phone
+  background: $grey
+  border-radius: 56px
+  box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.4)
+  height: 765.8px
+  width: 406.25px
+  
+.phone__screen
+  background: $dark-grey
+  border-radius: 53px
+  height: 755.8px
+  width: 396.25px
+  
+//III.SCREEN  
+.screen
+  background: $white
+  border-radius: 45px
+  color: $dark-grey
+  flex-direction: column
+  height: 730.8px
+  overflow: hidden
+  width: 371.25px
+  
+.screen__notch
+  background: $dark-grey
+  border-radius: 0 0 20px 20px
+  height: 30px
+  margin: 0 auto
+  position: relative
+  width: 200px
+    
+.screen__hour
+  font-size: 17px
+  left: 30px
+  top: 9px
+  
+.screen__wifi
+  font-size: 16px
+  left: 295px
+  top: 10px
+    
+.screen__battery
+  font-size: 20px
+  left: 325px
+  top: 9px
+  
+//IIIa.NAV  
+.screen__nav
+  background: $yellow
+  box-shadow: 0 4px 30px -6px #bbb
+  height: 60px
+  margin-top: 10px
+  text-align: center
+  width: 100%
+  
+.screen__nav > p,
+.nav__back,
+.nav__home
+  color: $grey
+  
+.screen__nav > p
+  font: 700 24px $title-text
+  margin-top: 18px
+  
+.nav__back
+  font-size: 22px
+  left: 20px
+  top: 60px
+    
+.nav__home
+  font-size: 28px
+  left: 38px
+  top: 56px
+  
+//IIIb.CODE
+.screen__code
+  margin: 0 auto
+  margin-top: 30px
+  width: 320px
+  height: 90px
+  background: #6284FF linear-gradient(64deg, #6284FF 0%, #ff005b 50%, #ffe5f2 100%)
+  text-align: center
+  
+.code__text
+  margin: auto
+  color: $white
+  font-size: 80px
+  font-weight: 700
+
+//IIIc.TIMER  
+.timer
+  margin: 0
+  margin-top: 10px
+  font-size: 44px
+  text-align: center
+  top: 250px
+  
+.timer__sec
+  color: $grey  
+  
+.timer__desc
+  top: 277px
+  font-size: 14px
+  font-weight: 700
+    
+.desc1
+  left: 45px
+  
+.desc2
+  left: 120px
+  
+.desc3
+  left: 210px
+  
+.desc4
+  color: $grey
+  left: 293px
+
+//IIId.TICKET
+.screen__ticket,
+.ticket__header,
+.terms,
+.gesture  
+  position: absolute
+
+.screen__ticket
+  background: url("https://www.dropbox.com/s/pms7s2sez927e8t/dots.png?raw=1")
+  background-size: 144%
+  border-radius: 20px
+  box-shadow: 0 4px 35px -6px #bbb
+  flex-direction: column
+  left: 25px
+  top: 315px
+  width: 320px
+  
+.ticket__footer,
+.ticket__header
+  background: $yellow
+  color: $grey
+  
+.ticket__header
+  border-radius: 20px 20px 0 0
+  padding-bottom: 10px
+  width: 320px
+    
+.ticket__header > p,
+.ticket__footer > p  
+  font: 700 18px $title-text
+  margin: auto
+  padding: 10px 0 0 15px
+  
+.ticket__header > span  
+  font-size: 16px
+  margin: auto
+  padding: 10px 10px 10px 15px
+  
+.ticket__data
+  margin: 70px 0 0 15px
+  position: relative
+  width: 100%
+  
+.data 
+  margin: 0 
+  padding-bottom: 2.5px
+  text-align: left
+  
+.data-header
+  font: 700 16px $title-text
+    
+.data-customer
+  font-size: 16px
+  padding-bottom: 10px
+  
+.ticket__footer
+  border-radius: 0px 0px 20px 20px
+  padding-bottom: 15px
+  width: 320px
+
+.footer__date
+  color: $dark-grey
+  font-size: 16px
+  
+//IIIe.SCREEN FOOTER  
+.terms
+  bottom: 2px
+  font-size: 12.5px
+  text-align: justify
+  padding: 25px
+  
+.gesture
+  background: #ddd
+  border-radius: 10px
+  height: 10px
+  left: 60px
+  top: 705px
+  width: 250px  

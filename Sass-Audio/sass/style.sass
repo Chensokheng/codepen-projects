@@ -1,0 +1,137 @@
+//Colours
+$black: #000
+$cherry: #ff1744
+$grey: #8d8d8d
+$light-grey: #aeaeae
+$white: #fff
+
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700')
+$title-text: 'Karla', sans-serif 
+
+//CSS Resets
+html,
+body 
+  align-items: center
+  display: flex
+  height: 100vh
+  justify-content: center
+  margin: auto
+
+//MAIN
+html 
+  min-height: 100%
+
+body
+  background: $cherry
+  color: $white
+  font-family: $title-text
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  
+.wrapper__title
+  font-size: 2em  
+  
+.wrapper > p
+  text-align: center
+  
+//PLAYER  
+.player
+  background: $white
+  border-radius: 10px
+  box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.2)
+  display: flex
+  flex-direction: column
+  height: 25em
+  margin: auto
+  position: relative
+  overflow: hidden
+  width: 15em
+    
+.player__location, 
+.player__album
+  color: $black
+  margin: 0
+  text-align: center
+  
+.player__location
+  font-size: .75em
+  margin-top: 15px
+  
+.player__album
+  font: 700 0.85em $title-text
+  margin-top: 2.5px
+  
+.player__cover
+  margin: 15px
+  text-align: center
+  
+img
+  box-shadow: 0 8px 20px -6px $grey
+  height: 180px
+  width: 180px
+    
+.player__track, .player__author
+  color: #000
+  margin: 0
+  text-align: center
+  
+.player__track
+  font: 700 1em $title-text
+  
+.player__author
+  font-size: 0.95em
+  
+.player__controls
+  display: flex
+  margin: 15px auto auto auto
+  width: 10em
+  
+//BUTTONS  
+button
+  border: none
+  margin: auto
+    
+button:focus
+  outline: none
+  
+.fas, .far
+  color: $light-grey
+  
+.fa-backward,
+.fa-play,
+.fa-forward
+  font-size: 3em
+  
+.far,
+.fa-heart,
+.share-full  
+  font-size: 1.2em
+  
+.fas:active, 
+.far:active
+  color: $grey
+
+//SHARE 
+.player__share
+  display: flex
+  justify-content: space-between 
+  margin: 15px auto
+  width: 12em
+   
+a
+  text-decoration: none
+  
+.share:hover .share-line,
+.share .share-full
+  display: none
+  
+.share:hover .share-full
+  display: inline
+  
+.fav:hover .heart-line,
+.fav .heart-full
+  display: none
+  
+.fav:hover .heart-full
+  display: inline

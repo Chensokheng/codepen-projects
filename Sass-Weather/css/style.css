@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700");
+html,
+body {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: auto;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background-color: #2979ff;
+  color: #fff;
+  font-family: "Karla", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper__title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100vmin;
+}
+
+.widget,
+.widget__section {
+  display: flex;
+  overflow: hidden;
+}
+
+.widget {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.2);
+  flex-direction: column;
+  height: 29rem;
+  margin: auto;
+  position: relative;
+  width: 25rem;
+}
+
+.thin-bar {
+  margin-top: 3rem;
+}
+
+.widget__section {
+  border-bottom: 1.5px solid #ddd;
+  height: 8rem;
+  width: 100%;
+}
+
+#no-bar {
+  border-bottom: none;
+}
+
+.nav {
+  height: 2.8rem;
+}
+
+.nav__button {
+  position: absolute;
+  top: 0.5rem;
+}
+
+.nav__button-red {
+  left: 0.5rem;
+}
+
+.nav__button-yellow {
+  left: 2rem;
+}
+
+.nav__button-green {
+  left: 3.5rem;
+}
+
+.nav__title {
+  font-size: 1.1rem;
+  left: 6em;
+  top: -0.5em;
+}
+
+.nav__title,
+.section__weather,
+.temp {
+  color: #444;
+  position: absolute;
+}
+
+.hour1,
+.hour2,
+.hour3,
+.hour4 {
+  font-size: 1.25rem;
+  left: 0.9em;
+}
+
+.hour1 {
+  top: 3.85em;
+}
+
+.hour2 {
+  top: 9.15em;
+}
+
+.hour3 {
+  top: 14.35em;
+}
+
+.hour4 {
+  top: 19.5em;
+}
+
+.city1,
+.city2,
+.city3,
+.city4 {
+  font-size: 1.75rem;
+  left: 0.65em;
+}
+
+.city1 {
+  top: 1.4em;
+}
+
+.city2 {
+  top: 5.2em;
+}
+
+.city3 {
+  top: 8.9em;
+}
+
+.city4 {
+  top: 12.6em;
+}
+
+.wthr1,
+.wthr2,
+.wthr3,
+.wthr4 {
+  position: absolute;
+  right: 2rem;
+}
+
+.wthr1 {
+  top: 4.7rem;
+  width: 3rem;
+}
+
+.wthr2 {
+  top: 11.25rem;
+  width: 2.65rem;
+}
+
+.wthr3 {
+  top: 17.8rem;
+  width: 2.8rem;
+}
+
+.wthr4 {
+  top: 24.2rem;
+  width: 2.8rem;
+}
+
+.temp {
+  font-size: 2.6rem;
+  right: 2.1em;
+}
+
+.temp1 {
+  top: 0.7em;
+}
+
+.temp2 {
+  top: 3.3em;
+}
+
+.temp3 {
+  bottom: 2.2em;
+}
+
+.temp4 {
+  bottom: -0.25em;
+}
