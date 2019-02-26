@@ -4,22 +4,22 @@ Repository with all my projects from CodePen - weekly challenges and ideas for p
 ## Weekly Challenges
 List of all my projects for CodePen Challenges:
 - 19 Jan, Color Palettes:
-    - [Peach Beach 🍑](https://github.com/ann-dev/CodePen-Projects/tree/master/C01-Peach-Beach)
-    - [Primary Colors 🍎](https://github.com/ann-dev/CodePen-Projects/tree/master/C02-Primary-Colors)
-    - [Color Pop 🎈](https://github.com/ann-dev/CodePen-Projects/tree/master/C03-Color-Pop)
-    - [Perfect Purples 🍇](https://github.com/ann-dev/CodePen-Projects/tree/master/C04-Perfect-Purples)
+    - [Peach Beach 🍑](https://github.com/ann-dev/codepen-projects/tree/master/c01-peach-beach)
+    - [Primary Colors 🍎](https://github.com/ann-dev/CodePen-Projects/tree/master/c02-primary-colors)
+    - [Color Pop 🎈](https://github.com/ann-dev/CodePen-Projects/tree/master/c03-color-pop)
+    - [Perfect Purples 🍇](https://github.com/ann-dev/CodePen-Projects/tree/master/c04-perfect-purples)
 
 - 19 Feb, Shapes:
-    - [Circles 🔵](https://github.com/ann-dev/CodePen-Projects/tree/master/C05-Circles)
-    - [Triangles 🔺](https://github.com/ann-dev/CodePen-Projects/tree/master/C06-Triangles)
+    - [Circles 🔵](https://github.com/ann-dev/CodePen-Projects/tree/master/c05-circles)
+    - [Triangles 🔺](https://github.com/ann-dev/CodePen-Projects/tree/master/c06-triangles)
     - [Blobs 🍦]() - TO DO
     - [Polygons 🔷]() - TO DO
 
 ## Miscellaneous Projects
 Small projects, which I might develop later on:
-- [Dribble Sign-in Form](https://github.com/ann-dev/CodePen-Projects/tree/master/Dribble-Login)
-- [MCR Metrolink App](https://github.com/ann-dev/CodePen-Projects/tree/master/MCR-Metrolink-App)
-- [Sass Audio](https://github.com/ann-dev/CodePen-Projects/tree/master/Sass-Audio)
-- [Sass Calc](https://github.com/ann-dev/CodePen-Projects/tree/master/Sass-Calc)
-- [Sass Weather](https://github.com/ann-dev/CodePen-Projects/tree/master/Sass-Weather)
-- [Travel Destinations WebApp](https://github.com/ann-dev/CodePen-Projects/tree/master/Travel-Destinations)
+- [Dribble Sign-in Form](https://github.com/ann-dev/CodePen-Projects/tree/master/dribble-login)
+- [MCR Metrolink App](https://github.com/ann-dev/CodePen-Projects/tree/master/metrolink-app)
+- [Sass Audio](https://github.com/ann-dev/CodePen-Projects/tree/master/sass-audio)
+- [Sass Calc](https://github.com/ann-dev/CodePen-Projects/tree/master/sass-calc)
+- [Sass Weather](https://github.com/ann-dev/CodePen-Projects/tree/master/sass-weather)
+- [Travel Destinations WebApp](https://github.com/ann-dev/CodePen-Projects/tree/master/travel-destinations)
