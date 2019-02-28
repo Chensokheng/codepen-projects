@@ -1,4 +1,4 @@
-![thumbnail](https://github.com/ann-dev/codepen-projects/blob/master/c06-triangles/thumbnail.png "Triangle Challenge")
+![thumbnail](https://github.com/ann-dev/codepen-projects/blob/master/c04-perfect-purples/thumbnail.png "Purple Challenge")
 ### Description
 CSS styled login form, with a purple twist. Live at [CodePen.](https://codepen.io/merkund/pen/jdBjYO)
 
