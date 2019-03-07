@@ -4,7 +4,7 @@ Repository with all my projects from CodePen - weekly challenges and ideas for p
 ## Weekly Challenges
 List of all my projects for CodePen Challenges:
 - 19 Jan, Color Palettes:
-    - [Peach Beach 🍑](https://github.com/ann-dev/codepen-projects/tree/master/c01-peach-beach)
+    - [Peach Beach 🍑](https://ann-dev.github.io/codepen-projects/c01-peach-beach/)
     - [Primary Colors 🍎](https://github.com/ann-dev/CodePen-Projects/tree/master/c02-primary-colors)
     - [Color Pop 🎈](https://github.com/ann-dev/CodePen-Projects/tree/master/c03-color-pop)
     - [Perfect Purples 🍇](https://github.com/ann-dev/CodePen-Projects/tree/master/c04-perfect-purples)
