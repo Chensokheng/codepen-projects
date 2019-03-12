@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text: 400,600');
+
+*,
+*:before,
+*::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: inherit;
+}
+
+body {
+    align-items: center;
+    -webkit-animation: bgChange 20s linear infinite alternate both;
+    animation: bgChange 20s linear infinite alternate both; 
+    color: rgb(112, 104, 104);
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: 'Crimson Text', serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    justify-content: center;
+    min-width: 300px;
+}
+
+@keyframes bgChange {
+    0% {
+        background: #c6ffdd;
+    }
+    50% {
+        background: #fbd786;
+    }
+    100% {
+        background: #f7797d;
+    }
+  }
+
+button {
+    -webkit-appearance: none;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow:0 0 50px 0 rgba(68, 65, 75, 0.2),0 0 100px 0 rgba(60,50,80,.08);
+    cursor: pointer;
+    padding: 30px;
+}
+
+button,
+svg {
+    transition: all .5s ease;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    transform: scale(.9);
+}
+button:active svg {
+    fill: #f7797d;
+}
+
+.instructions {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.credits {
+    bottom: 2rem;
+    position: absolute;
+    text-align: center;
+}
+
+@media only screen min-device-width: 320px 
+and (max-device-width: 800px) {
+  .credits {
+    max-width: 400px;
+    padding: 1.5em;
+  }
+}
+
+.credits a {
+    color: rgb(80, 73, 73);
+    font-weight: 600;
