@@ -16,7 +16,8 @@ List of all my projects for CodePen Challenges:
     - [Polygons]() - TO DO
     
  - 19 Mar, Tributes:   
-     - [Coding Heroes]()
+     - [Coding Heroes](https://ann-dev.github.io/codepen-projects/c09-coding-heroes/)
+     - [Art Icons](https://ann-dev.github.io/codepen-projects/c10-art-icons/)
 
 ## Miscellaneous Projects
 Small projects, which I might develop later on:
