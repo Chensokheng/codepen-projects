@@ -16,28 +16,19 @@
   --white: #fff;
 }
 
-@media (max-width: 900px) {
-  .card { margin: 10px !important; }
-}
 
-@media (max-width: 750px) {
-  body { flex-direction: column; }
-  .card { height: 300px; }
-  .content__cover { height: 100px !important; }
-  .content__title { font-size: 1.1em !important; margin-bottom: 10px; }
-  .content__footer { display: flex;flex-direction: row; }
-  .links__checkbox { margin-left: 20px; }
-}
-
-html, body { height: 100vh; }
 
 body {
   align-items: center;
   background: var(--light-grey);
-  display: flex;
-  justify-content: center;
+  
 }
-
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+ justify-items: center;
+ 
+}
 .card {
   background: var(--white);
   border: none;
